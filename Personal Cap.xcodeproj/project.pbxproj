@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B91CE021FE0EC4008BBB3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CDF21FE0EC4008BBB3A /* AppDelegate.m */; };
+		01B91CE321FE0EC4008BBB3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CE221FE0EC4008BBB3A /* ViewController.m */; };
+		01B91CE621FE0EC4008BBB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B91CE421FE0EC4008BBB3A /* Main.storyboard */; };
+		01B91CE921FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CE721FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld */; };
+		01B91CEB21FE0EC6008BBB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B91CEA21FE0EC6008BBB3A /* Assets.xcassets */; };
+		01B91CEE21FE0EC6008BBB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B91CEC21FE0EC6008BBB3A /* LaunchScreen.storyboard */; };
+		01B91CF121FE0EC6008BBB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CF021FE0EC6008BBB3A /* main.m */; };
+		01B91CFB21FE0EC6008BBB3A /* Personal_CapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CFA21FE0EC6008BBB3A /* Personal_CapTests.m */; };
+		01B91D0621FE0EC6008BBB3A /* Personal_CapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D0521FE0EC6008BBB3A /* Personal_CapUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01B91CF721FE0EC6008BBB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01B91CD321FE0EC4008BBB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B91CDA21FE0EC4008BBB3A;
+			remoteInfo = "Personal Cap";
+		};
+		01B91D0221FE0EC6008BBB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01B91CD321FE0EC4008BBB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B91CDA21FE0EC4008BBB3A;
+			remoteInfo = "Personal Cap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B91CDB21FE0EC4008BBB3A /* Personal Cap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Cap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B91CDE21FE0EC4008BBB3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01B91CDF21FE0EC4008BBB3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01B91CE121FE0EC4008BBB3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01B91CE221FE0EC4008BBB3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01B91CE521FE0EC4008BBB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01B91CE821FE0EC4008BBB3A /* Personal_Cap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Personal_Cap.xcdatamodel; sourceTree = "<group>"; };
+		01B91CEA21FE0EC6008BBB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01B91CED21FE0EC6008BBB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01B91CEF21FE0EC6008BBB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B91CF021FE0EC6008BBB3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01B91CF621FE0EC6008BBB3A /* Personal CapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal CapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B91CFA21FE0EC6008BBB3A /* Personal_CapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Personal_CapTests.m; sourceTree = "<group>"; };
+		01B91CFC21FE0EC6008BBB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B91D0121FE0EC6008BBB3A /* Personal CapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal CapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B91D0521FE0EC6008BBB3A /* Personal_CapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Personal_CapUITests.m; sourceTree = "<group>"; };
+		01B91D0721FE0EC6008BBB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B91CD821FE0EC4008BBB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B91CF321FE0EC6008BBB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B91CFE21FE0EC6008BBB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B91CD221FE0EC4008BBB3A = {
+			isa = PBXGroup;
+			children = (
+				01B91CDD21FE0EC4008BBB3A /* Personal Cap */,
+				01B91CF921FE0EC6008BBB3A /* Personal CapTests */,
+				01B91D0421FE0EC6008BBB3A /* Personal CapUITests */,
+				01B91CDC21FE0EC4008BBB3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01B91CDC21FE0EC4008BBB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B91CDB21FE0EC4008BBB3A /* Personal Cap.app */,
+				01B91CF621FE0EC6008BBB3A /* Personal CapTests.xctest */,
+				01B91D0121FE0EC6008BBB3A /* Personal CapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B91CDD21FE0EC4008BBB3A /* Personal Cap */ = {
+			isa = PBXGroup;
+			children = (
+				01B91CDE21FE0EC4008BBB3A /* AppDelegate.h */,
+				01B91CDF21FE0EC4008BBB3A /* AppDelegate.m */,
+				01B91CE121FE0EC4008BBB3A /* ViewController.h */,
+				01B91CE221FE0EC4008BBB3A /* ViewController.m */,
+				01B91CE421FE0EC4008BBB3A /* Main.storyboard */,
+				01B91CEA21FE0EC6008BBB3A /* Assets.xcassets */,
+				01B91CEC21FE0EC6008BBB3A /* LaunchScreen.storyboard */,
+				01B91CEF21FE0EC6008BBB3A /* Info.plist */,
+				01B91CF021FE0EC6008BBB3A /* main.m */,
+				01B91CE721FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld */,
+			);
+			path = "Personal Cap";
+			sourceTree = "<group>";
+		};
+		01B91CF921FE0EC6008BBB3A /* Personal CapTests */ = {
+			isa = PBXGroup;
+			children = (
+				01B91CFA21FE0EC6008BBB3A /* Personal_CapTests.m */,
+				01B91CFC21FE0EC6008BBB3A /* Info.plist */,
+			);
+			path = "Personal CapTests";
+			sourceTree = "<group>";
+		};
+		01B91D0421FE0EC6008BBB3A /* Personal CapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01B91D0521FE0EC6008BBB3A /* Personal_CapUITests.m */,
+				01B91D0721FE0EC6008BBB3A /* Info.plist */,
+			);
+			path = "Personal CapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B91CDA21FE0EC4008BBB3A /* Personal Cap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B91D0A21FE0EC6008BBB3A /* Build configuration list for PBXNativeTarget "Personal Cap" */;
+			buildPhases = (
+				01B91CD721FE0EC4008BBB3A /* Sources */,
+				01B91CD821FE0EC4008BBB3A /* Frameworks */,
+				01B91CD921FE0EC4008BBB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Personal Cap";
+			productName = "Personal Cap";
+			productReference = 01B91CDB21FE0EC4008BBB3A /* Personal Cap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01B91CF521FE0EC6008BBB3A /* Personal CapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B91D0D21FE0EC6008BBB3A /* Build configuration list for PBXNativeTarget "Personal CapTests" */;
+			buildPhases = (
+				01B91CF221FE0EC6008BBB3A /* Sources */,
+				01B91CF321FE0EC6008BBB3A /* Frameworks */,
+				01B91CF421FE0EC6008BBB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B91CF821FE0EC6008BBB3A /* PBXTargetDependency */,
+			);
+			name = "Personal CapTests";
+			productName = "Personal CapTests";
+			productReference = 01B91CF621FE0EC6008BBB3A /* Personal CapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01B91D0021FE0EC6008BBB3A /* Personal CapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B91D1021FE0EC6008BBB3A /* Build configuration list for PBXNativeTarget "Personal CapUITests" */;
+			buildPhases = (
+				01B91CFD21FE0EC6008BBB3A /* Sources */,
+				01B91CFE21FE0EC6008BBB3A /* Frameworks */,
+				01B91CFF21FE0EC6008BBB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B91D0321FE0EC6008BBB3A /* PBXTargetDependency */,
+			);
+			name = "Personal CapUITests";
+			productName = "Personal CapUITests";
+			productReference = 01B91D0121FE0EC6008BBB3A /* Personal CapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B91CD321FE0EC4008BBB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Naveen Muthyala";
+				TargetAttributes = {
+					01B91CDA21FE0EC4008BBB3A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					01B91CF521FE0EC6008BBB3A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 01B91CDA21FE0EC4008BBB3A;
+					};
+					01B91D0021FE0EC6008BBB3A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 01B91CDA21FE0EC4008BBB3A;
+					};
+				};
+			};
+			buildConfigurationList = 01B91CD621FE0EC4008BBB3A /* Build configuration list for PBXProject "Personal Cap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B91CD221FE0EC4008BBB3A;
+			productRefGroup = 01B91CDC21FE0EC4008BBB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B91CDA21FE0EC4008BBB3A /* Personal Cap */,
+				01B91CF521FE0EC6008BBB3A /* Personal CapTests */,
+				01B91D0021FE0EC6008BBB3A /* Personal CapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B91CD921FE0EC4008BBB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B91CEE21FE0EC6008BBB3A /* LaunchScreen.storyboard in Resources */,
+				01B91CEB21FE0EC6008BBB3A /* Assets.xcassets in Resources */,
+				01B91CE621FE0EC4008BBB3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B91CF421FE0EC6008BBB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B91CFF21FE0EC6008BBB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B91CD721FE0EC4008BBB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B91CE321FE0EC4008BBB3A /* ViewController.m in Sources */,
+				01B91CE021FE0EC4008BBB3A /* AppDelegate.m in Sources */,
+				01B91CF121FE0EC6008BBB3A /* main.m in Sources */,
+				01B91CE921FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B91CF221FE0EC6008BBB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B91CFB21FE0EC6008BBB3A /* Personal_CapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B91CFD21FE0EC6008BBB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B91D0621FE0EC6008BBB3A /* Personal_CapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B91CF821FE0EC6008BBB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B91CDA21FE0EC4008BBB3A /* Personal Cap */;
+			targetProxy = 01B91CF721FE0EC6008BBB3A /* PBXContainerItemProxy */;
+		};
+		01B91D0321FE0EC6008BBB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B91CDA21FE0EC4008BBB3A /* Personal Cap */;
+			targetProxy = 01B91D0221FE0EC6008BBB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01B91CE421FE0EC4008BBB3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B91CE521FE0EC4008BBB3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01B91CEC21FE0EC6008BBB3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B91CED21FE0EC6008BBB3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01B91D0821FE0EC6008BBB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01B91D0921FE0EC6008BBB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B91D0B21FE0EC6008BBB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2WMJ9F3EU;
+				INFOPLIST_FILE = "Personal Cap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun.Personal-Cap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01B91D0C21FE0EC6008BBB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2WMJ9F3EU;
+				INFOPLIST_FILE = "Personal Cap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun.Personal-Cap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		01B91D0E21FE0EC6008BBB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2WMJ9F3EU;
+				INFOPLIST_FILE = "Personal CapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun.Personal-CapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personal Cap.app/Personal Cap";
+			};
+			name = Debug;
+		};
+		01B91D0F21FE0EC6008BBB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2WMJ9F3EU;
+				INFOPLIST_FILE = "Personal CapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun.Personal-CapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Personal Cap.app/Personal Cap";
+			};
+			name = Release;
+		};
+		01B91D1121FE0EC6008BBB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2WMJ9F3EU;
+				INFOPLIST_FILE = "Personal CapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun.Personal-CapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personal Cap";
+			};
+			name = Debug;
+		};
+		01B91D1221FE0EC6008BBB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D2WMJ9F3EU;
+				INFOPLIST_FILE = "Personal CapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arjun.Personal-CapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Personal Cap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B91CD621FE0EC4008BBB3A /* Build configuration list for PBXProject "Personal Cap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B91D0821FE0EC6008BBB3A /* Debug */,
+				01B91D0921FE0EC6008BBB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B91D0A21FE0EC6008BBB3A /* Build configuration list for PBXNativeTarget "Personal Cap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B91D0B21FE0EC6008BBB3A /* Debug */,
+				01B91D0C21FE0EC6008BBB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B91D0D21FE0EC6008BBB3A /* Build configuration list for PBXNativeTarget "Personal CapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B91D0E21FE0EC6008BBB3A /* Debug */,
+				01B91D0F21FE0EC6008BBB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B91D1021FE0EC6008BBB3A /* Build configuration list for PBXNativeTarget "Personal CapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B91D1121FE0EC6008BBB3A /* Debug */,
+				01B91D1221FE0EC6008BBB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01B91CE721FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01B91CE821FE0EC4008BBB3A /* Personal_Cap.xcdatamodel */,
+			);
+			currentVersion = 01B91CE821FE0EC4008BBB3A /* Personal_Cap.xcdatamodel */;
+			path = Personal_Cap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01B91CD321FE0EC4008BBB3A /* Project object */;
+}
