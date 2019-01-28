@@ -8,14 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		01B91CE021FE0EC4008BBB3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CDF21FE0EC4008BBB3A /* AppDelegate.m */; };
-		01B91CE321FE0EC4008BBB3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CE221FE0EC4008BBB3A /* ViewController.m */; };
-		01B91CE621FE0EC4008BBB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B91CE421FE0EC4008BBB3A /* Main.storyboard */; };
+		01B91CE321FE0EC4008BBB3A /* ArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CE221FE0EC4008BBB3A /* ArticleViewController.m */; };
 		01B91CE921FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CE721FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld */; };
 		01B91CEB21FE0EC6008BBB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B91CEA21FE0EC6008BBB3A /* Assets.xcassets */; };
 		01B91CEE21FE0EC6008BBB3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B91CEC21FE0EC6008BBB3A /* LaunchScreen.storyboard */; };
 		01B91CF121FE0EC6008BBB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CF021FE0EC6008BBB3A /* main.m */; };
 		01B91CFB21FE0EC6008BBB3A /* Personal_CapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91CFA21FE0EC6008BBB3A /* Personal_CapTests.m */; };
 		01B91D0621FE0EC6008BBB3A /* Personal_CapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D0521FE0EC6008BBB3A /* Personal_CapUITests.m */; };
+		01B91D1A21FE10AC008BBB3A /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D1921FE10AC008BBB3A /* DataSource.m */; };
+		01B91D1D21FE10BE008BBB3A /* ArticleVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D1C21FE10BE008BBB3A /* ArticleVO.m */; };
+		01B91D2021FE10D5008BBB3A /* UIView+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D1F21FE10D5008BBB3A /* UIView+UI.m */; };
+		01B91D2321FE10E7008BBB3A /* UILabel+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D2221FE10E7008BBB3A /* UILabel+UI.m */; };
+		01B91D2621FE1103008BBB3A /* UIColor+Swatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D2521FE1103008BBB3A /* UIColor+Swatch.m */; };
+		01B91D2921FE112C008BBB3A /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D2821FE112C008BBB3A /* XMLParser.m */; };
+		01B91D2C21FE113D008BBB3A /* AppUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D2B21FE113D008BBB3A /* AppUtilities.m */; };
+		01B91D3121FE1436008BBB3A /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D3021FE1436008BBB3A /* NSString+HTML.m */; };
+		01B91D3421FE1798008BBB3A /* ArticleWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D3321FE1798008BBB3A /* ArticleWebViewController.m */; };
+		01B91D3A21FE2511008BBB3A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D3921FE2511008BBB3A /* MasterViewController.m */; };
+		01B91D3D21FE3D00008BBB3A /* UIView+SafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B91D3C21FE3D00008BBB3A /* UIView+SafeArea.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +49,8 @@
 		01B91CDB21FE0EC4008BBB3A /* Personal Cap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Cap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B91CDE21FE0EC4008BBB3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01B91CDF21FE0EC4008BBB3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		01B91CE121FE0EC4008BBB3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		01B91CE221FE0EC4008BBB3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		01B91CE521FE0EC4008BBB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01B91CE121FE0EC4008BBB3A /* ArticleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleViewController.h; sourceTree = "<group>"; };
+		01B91CE221FE0EC4008BBB3A /* ArticleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleViewController.m; sourceTree = "<group>"; };
 		01B91CE821FE0EC4008BBB3A /* Personal_Cap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Personal_Cap.xcdatamodel; sourceTree = "<group>"; };
 		01B91CEA21FE0EC6008BBB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01B91CED21FE0EC6008BBB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +62,29 @@
 		01B91D0121FE0EC6008BBB3A /* Personal CapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Personal CapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B91D0521FE0EC6008BBB3A /* Personal_CapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Personal_CapUITests.m; sourceTree = "<group>"; };
 		01B91D0721FE0EC6008BBB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B91D1821FE10AC008BBB3A /* DataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		01B91D1921FE10AC008BBB3A /* DataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		01B91D1B21FE10BE008BBB3A /* ArticleVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleVO.h; sourceTree = "<group>"; };
+		01B91D1C21FE10BE008BBB3A /* ArticleVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleVO.m; sourceTree = "<group>"; };
+		01B91D1E21FE10D5008BBB3A /* UIView+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+UI.h"; sourceTree = "<group>"; };
+		01B91D1F21FE10D5008BBB3A /* UIView+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+UI.m"; sourceTree = "<group>"; };
+		01B91D2121FE10E7008BBB3A /* UILabel+UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+UI.h"; sourceTree = "<group>"; };
+		01B91D2221FE10E7008BBB3A /* UILabel+UI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UI.m"; sourceTree = "<group>"; };
+		01B91D2421FE1103008BBB3A /* UIColor+Swatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Swatch.h"; sourceTree = "<group>"; };
+		01B91D2521FE1103008BBB3A /* UIColor+Swatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Swatch.m"; sourceTree = "<group>"; };
+		01B91D2721FE112C008BBB3A /* XMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		01B91D2821FE112C008BBB3A /* XMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		01B91D2A21FE113D008BBB3A /* AppUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUtilities.h; sourceTree = "<group>"; };
+		01B91D2B21FE113D008BBB3A /* AppUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUtilities.m; sourceTree = "<group>"; };
+		01B91D2E21FE1409008BBB3A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		01B91D2F21FE1436008BBB3A /* NSString+HTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
+		01B91D3021FE1436008BBB3A /* NSString+HTML.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		01B91D3221FE1798008BBB3A /* ArticleWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArticleWebViewController.h; sourceTree = "<group>"; };
+		01B91D3321FE1798008BBB3A /* ArticleWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleWebViewController.m; sourceTree = "<group>"; };
+		01B91D3821FE2511008BBB3A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		01B91D3921FE2511008BBB3A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		01B91D3B21FE3D00008BBB3A /* UIView+SafeArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SafeArea.h"; sourceTree = "<group>"; };
+		01B91D3C21FE3D00008BBB3A /* UIView+SafeArea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SafeArea.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +135,11 @@
 		01B91CDD21FE0EC4008BBB3A /* Personal Cap */ = {
 			isa = PBXGroup;
 			children = (
-				01B91CDE21FE0EC4008BBB3A /* AppDelegate.h */,
-				01B91CDF21FE0EC4008BBB3A /* AppDelegate.m */,
-				01B91CE121FE0EC4008BBB3A /* ViewController.h */,
-				01B91CE221FE0EC4008BBB3A /* ViewController.m */,
-				01B91CE421FE0EC4008BBB3A /* Main.storyboard */,
-				01B91CEA21FE0EC6008BBB3A /* Assets.xcassets */,
-				01B91CEC21FE0EC6008BBB3A /* LaunchScreen.storyboard */,
+				01B91D1521FE0F6E008BBB3A /* App Delegate */,
+				01B91D1421FE0F05008BBB3A /* Article View Controller */,
+				01B91D1721FE107F008BBB3A /* Data Objects */,
+				01B91D1621FE106E008BBB3A /* Categories */,
+				01B91D1321FE0EEE008BBB3A /* Resources */,
 				01B91CEF21FE0EC6008BBB3A /* Info.plist */,
 				01B91CF021FE0EC6008BBB3A /* main.m */,
 				01B91CE721FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld */,
@@ -133,6 +163,70 @@
 				01B91D0721FE0EC6008BBB3A /* Info.plist */,
 			);
 			path = "Personal CapUITests";
+			sourceTree = "<group>";
+		};
+		01B91D1321FE0EEE008BBB3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01B91CEA21FE0EC6008BBB3A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		01B91D1421FE0F05008BBB3A /* Article View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				01B91CE121FE0EC4008BBB3A /* ArticleViewController.h */,
+				01B91CE221FE0EC4008BBB3A /* ArticleViewController.m */,
+				01B91D3221FE1798008BBB3A /* ArticleWebViewController.h */,
+				01B91D3321FE1798008BBB3A /* ArticleWebViewController.m */,
+				01B91D3821FE2511008BBB3A /* MasterViewController.h */,
+				01B91D3921FE2511008BBB3A /* MasterViewController.m */,
+			);
+			path = "Article View Controller";
+			sourceTree = "<group>";
+		};
+		01B91D1521FE0F6E008BBB3A /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				01B91CDE21FE0EC4008BBB3A /* AppDelegate.h */,
+				01B91CDF21FE0EC4008BBB3A /* AppDelegate.m */,
+				01B91CEC21FE0EC6008BBB3A /* LaunchScreen.storyboard */,
+				01B91D2E21FE1409008BBB3A /* Constants.h */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		01B91D1621FE106E008BBB3A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				01B91D1E21FE10D5008BBB3A /* UIView+UI.h */,
+				01B91D1F21FE10D5008BBB3A /* UIView+UI.m */,
+				01B91D2121FE10E7008BBB3A /* UILabel+UI.h */,
+				01B91D2221FE10E7008BBB3A /* UILabel+UI.m */,
+				01B91D2421FE1103008BBB3A /* UIColor+Swatch.h */,
+				01B91D2521FE1103008BBB3A /* UIColor+Swatch.m */,
+				01B91D2A21FE113D008BBB3A /* AppUtilities.h */,
+				01B91D2B21FE113D008BBB3A /* AppUtilities.m */,
+				01B91D2F21FE1436008BBB3A /* NSString+HTML.h */,
+				01B91D3021FE1436008BBB3A /* NSString+HTML.m */,
+				01B91D3B21FE3D00008BBB3A /* UIView+SafeArea.h */,
+				01B91D3C21FE3D00008BBB3A /* UIView+SafeArea.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		01B91D1721FE107F008BBB3A /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				01B91D1821FE10AC008BBB3A /* DataSource.h */,
+				01B91D1921FE10AC008BBB3A /* DataSource.m */,
+				01B91D1B21FE10BE008BBB3A /* ArticleVO.h */,
+				01B91D1C21FE10BE008BBB3A /* ArticleVO.m */,
+				01B91D2721FE112C008BBB3A /* XMLParser.h */,
+				01B91D2821FE112C008BBB3A /* XMLParser.m */,
+			);
+			path = "Data Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +334,6 @@
 			files = (
 				01B91CEE21FE0EC6008BBB3A /* LaunchScreen.storyboard in Resources */,
 				01B91CEB21FE0EC6008BBB3A /* Assets.xcassets in Resources */,
-				01B91CE621FE0EC4008BBB3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +358,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B91CE321FE0EC4008BBB3A /* ViewController.m in Sources */,
+				01B91D2021FE10D5008BBB3A /* UIView+UI.m in Sources */,
+				01B91D2C21FE113D008BBB3A /* AppUtilities.m in Sources */,
+				01B91D3421FE1798008BBB3A /* ArticleWebViewController.m in Sources */,
+				01B91CE321FE0EC4008BBB3A /* ArticleViewController.m in Sources */,
+				01B91D1D21FE10BE008BBB3A /* ArticleVO.m in Sources */,
+				01B91D1A21FE10AC008BBB3A /* DataSource.m in Sources */,
+				01B91D3D21FE3D00008BBB3A /* UIView+SafeArea.m in Sources */,
+				01B91D3A21FE2511008BBB3A /* MasterViewController.m in Sources */,
+				01B91D2921FE112C008BBB3A /* XMLParser.m in Sources */,
 				01B91CE021FE0EC4008BBB3A /* AppDelegate.m in Sources */,
 				01B91CF121FE0EC6008BBB3A /* main.m in Sources */,
+				01B91D2321FE10E7008BBB3A /* UILabel+UI.m in Sources */,
+				01B91D2621FE1103008BBB3A /* UIColor+Swatch.m in Sources */,
+				01B91D3121FE1436008BBB3A /* NSString+HTML.m in Sources */,
 				01B91CE921FE0EC4008BBB3A /* Personal_Cap.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,14 +408,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		01B91CE421FE0EC4008BBB3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01B91CE521FE0EC4008BBB3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		01B91CEC21FE0EC6008BBB3A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

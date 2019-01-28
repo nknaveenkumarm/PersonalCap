@@ -12,7 +12,9 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) AppDelegate *delegate;
 
+@property (nonatomic, strong) NSOperationQueue *concurrentRequestQueue;
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 
 - (void)saveContext;

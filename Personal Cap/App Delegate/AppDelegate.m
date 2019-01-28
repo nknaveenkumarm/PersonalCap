@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ArticleViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.delegate = self;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+    // ConcurrentRequestQueue
+    self.concurrentRequestQueue = [[NSOperationQueue alloc] init];
+    self.concurrentRequestQueue.maxConcurrentOperationCount = 8;
+    
+    ArticleViewController *articleViewController = [[ArticleViewController alloc] init];
+    UINavigationController *uiNavigationController = [[UINavigationController alloc] initWithRootViewController:articleViewController];
+    self.window.rootViewController = uiNavigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -91,7 +103,7 @@
         // Replace this implementation with code to handle the error appropriately.
         // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
         NSLog(@"Unresolved error %@, %@", error, error.userInfo);
-        abort();
+        abort(); 
     }
 }
 
